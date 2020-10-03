@@ -1,0 +1,25 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eval $(cat .env) node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kineticlion/weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kineticlion/weather-app/issues"
+  },
+  "homepage": "https://github.com/kineticlion/weather-app#readme"
+}
